@@ -118,3 +118,49 @@ button {
   font-size: 16px;
   color: #1F2937;
 }
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 80px 200px;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  text-align: center;
+}
+
+.quote .author {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1F2937;
+  text-align: right;
+  margin-top: 16px;
+}
+
+.cta {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding: 64px 200px;
+}
+
+.cta h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.cta p {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.cta button {
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+}
